@@ -12,7 +12,7 @@ let handler = async (m, { conn }) => {
   title: `${await conn.getName(conn.user.jid)}`,
   description: ` *• SEWA BOT & UP TO PREMIUM •*
         
-1. Grup / 30 Hari
+1. Grup (pribadi)/ 30 Hari
 Rp. 15.000 Dana
 Rp. 15.000 Pulsa
 
@@ -25,8 +25,10 @@ Rp. 20.000 Dana
 Rp. 20.000 Pulsa
 
 wa.me/${owner[0]}
+wa.me/6285325035457
 *Bukan Bot!!!*
 *Owner ${conn.user.name}*
+*Owner 2 PUTRA*
 `,
   buttonText: 'Harga Sesuai Pasaran',
   listType: 2,
